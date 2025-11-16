@@ -1,0 +1,46 @@
+.box{
+    width: 200px;
+    height: 300px;
+    border: 1px solid;
+    padding: 20px 20px;
+    margin: auto;
+    box-shadow: 10px 20px 30px grey;
+    border-radius: 20px;
+    background-color: rgb(216, 215, 213);
+}
+
+.title{
+    font-family: monospace;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+
+.type{
+    display: flex;
+    gap: 5px;
+}
+
+.type1, .type2, .type3,.type4,.type5{
+    width: 40px;
+    background-color: rgb(95, 102, 104);
+    border: none;
+    margin: 10px 0px;
+    color: black;
+    border: 1px solid rgb(74, 73, 73);
+    box-shadow: 1px 1px 1px;
+    
+}
+
+.input1,.input2{
+    
+    width: 50px;
+    height: 30px;
+   margin: 0px 20px;
+}
+
+
+.result{
+    margin: 20px 6px;
+    width: 180px;
+    height: 30px;
+}

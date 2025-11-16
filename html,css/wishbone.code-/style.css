@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+.wrapper{
+    width: 1500px;
+    margin: auto;
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar__logo{
+    width: 250px;
+}
+
+
+.navbar__list{
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.navbar__link{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    
+    color: #1B1A1A;
+    
+    
+}
+
+.navbar__link:hover{
+    color: rgb(38, 39, 41);
+}
+
+
+.navbar__btn{
+
+
+background: #1B1A1A;
+border-radius: 10px;
+align-items: center;
+width: 150px;
+height: 40px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+
+}
+
+
+.intro{
+    background-color: blanchedalmond;
+    width: 100%;
+    padding: 50px 0px;
+    
+}
+
+.intro__wrapper{
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.intro__text{
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #645C55;
+
+
+}
+
+
+.intro__title{
+margin-top: 15px;
+font-style: normal;
+width: 500px;
+font-weight: 400;
+font-size: 64px;
+line-height: 70px;
+/* or 110% */
+
+color: #1B1A1A;
+
+
+}
+
+
+.intro__subtext{
+    margin-top: 30px;
+font-style: normal;
+width: 510px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+
+}
+
+
+.intro__btn{
+margin-top: 30px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+
+color: #1B1A1A;
+
+border: none;
+background-color: inherit;
+}
+
+
+
+/* NEW */
+
+
+.new__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 89px;
+    gap: 100px;
+
+    background-color: rgb(241, 237, 237);
+}
+
+.news__text{
+    width: 540px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #403E3B;
+
+
+}
+
+
+
+.new__title{
+    /* Our firm */
+
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height, or 119% */
+
+color: #403E3B;
+
+
+}
+
+
+.new__img{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.text__suptext{
+    /* Senior Partner */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+color: #645C55;
+
+
+}
+
+
+.new__h4{
+    /* Stephen Collier */
+
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height, or 153% */
+
+color: #1B1A1A;
+
+
+}
+
+.new__t__text{
+    margin-left: 20px;
+}
+
+
+.all__img{
+    width: 100%;
+    height: 1000px;
+
+}
+
+
+/* OUR */
+
+.our{
+    width: 100%;
+    background-color: rgb(178, 182, 186);
+    padding: 50px 0px;
+    margin: auto;
+
+}
+
+
+.our__img__text{
+    width: 300px;   
+}
+
+
+.our__our{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.our__title{
+
+    padding: 50px 0px;
+}
+
+.our__h2{
+    /* How we do what we do. */
+
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 42px;
+/* identical to box height, or 108% */
+text-align: center;
+
+color: #1B1A1A;
+
+
+}
+
+
+.our__text{
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #645C55;
+
+
+}
+
+
+.frame{
+    width: 100%;
+}
+
+
+.happy{
+    background-color: #645C55;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+
+/* HAPPY */
+
+
+.happy__suptitle{
+    /* prior clients */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #ECE7E4;
+
+
+}
+
+
+.happy__h3{
+    /* Happy customers. */
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height, or 119% */
+
+color: #FFFFFF;
+
+
+}
+
+.happy__text{
+    /* Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. */
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+color: #ECE7E4;
+width: 450px;
+margin-top: 20px;
+
+}
+
+.happy__left{
+    padding: 50px 0px;
+
+}
+
+.frame__5{
+    width: 100%;
+}
+/* 
+BIG */
+
+.big{
+    width: 100%;
+    padding: 70px 890px;
+ 
+}
+
+.big__title{
+    /* Featured projects */
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 42px;
+/* identical to box height, or 108% */
+
+color: #1B1A1A;
+padding: 20px 0px;
+
+}
+
+.big__text{
+    /* Some of the latest and greatest projects from us here at Wishbone+Partners. */
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* or 125% */
+
+color: #645C55;
+width: 550px;
+padding: 20px 0px;
+
+}
+
+.big__two{
+    display: flex;
+    gap: 30px;
+}
+
+
+.big__btn{
+    /* Frame */
+width: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 46px;
+
+}
+
+.big__div{
+    display: flex;
+    padding: 20px 500px;
+}
+
+
+/* MEET */
+
+
+
+
+
+
+
+
+
+
+.meet__wrapper{
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.meet{
+    width: 100%;
+    background-color: #b8aca0;
+    padding: 50px 0px;
+    height: 300px;
+}
+
+.meet__title{
+
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height, or 119% */
+
+color: #403E3B;
+
+
+}
+
+.meet__text{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis. */
+
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+color: #645C55;
+width: 400px;
+
+
+}
+
+.meet__btn{
+    /* Frame */
+
+background-color: inherit;
+width: 200px;
+height: 40px;
+border: none;
+border: 1px solid;
+}
+
+.meet__left{
+    padding: 20px 0px;
+}
+
+
+.meet__right{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.meet__subtitle{
+    /* Stephen Collier */
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height, or 153% */
+
+color: #1B1A1A;
+
+
+}
+
+.meet__suptext{
+    /* Senior Partner */
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+color: #645C55;
+
+
+}
+
+.all__meet{
+    display: flex;
+}
+
+
+/* get */
+
+
+
+.get{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #ede6dc;
+}
+
+
+.get__btn{
+    width: 200px;
+    height: 40px;
+    background-color: inherit;
+}
+
+.get__text{
+    /* Get in touch */
+
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #645C55;
+
+
+}
+
+.get__title{
+    /* Think we would be a good fit for your next project? */
+
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+/* or 105% */
+
+color: #1B1A1A;
+width: 500px;
+
+}
+
+
+.get__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 800px;
+}
+
+
+
+/* footer */
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 900px;
+    padding: 50px 0px;
+}
+
+
+.footer__text{
+    /* Frame */
+/* Frame */
+
+
+
+
+/* Webflow */
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #645C55;
+
+
+
+/* All rights reserved Wishbone+Partners, Inc. */
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #645C55;
+
+
+
+/* . */
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #645C55;
+
+
+
+/* . */
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #645C55;
+
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #645C55;
+
+
+
+/* Licensing */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #645C55;
+
+
+
+}

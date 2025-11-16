@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #001f3f, #87CEFA);
+    height: 100vh;
+    overflow: hidden;
+
+  }
+
+
+  
+  
+  .snow-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .snowflake {
+    position: absolute;
+    top: -50px;
+    color: white;
+    font-size: 2rem;
+    animation: fall linear infinite;
+    opacity: 0.8;
+  }
+  
+  .snowflake:nth-child(1) {
+    left: 10%;
+    animation-duration: 5s;
+    animation-delay: 0s;
+  }
+  
+  .snowflake:nth-child(2) {
+    left: 20%;
+    animation-duration: 7s;
+    animation-delay: 1s;
+  }
+  
+  .snowflake:nth-child(3) {
+    left: 30%;
+    animation-duration: 6s;
+    animation-delay: 0.5s;
+  }
+  
+  .snowflake:nth-child(4) {
+    left: 40%;
+    animation-duration: 8s;
+    animation-delay: 1.5s;
+  }
+  
+  .snowflake:nth-child(5) {
+    left: 50%;
+    animation-duration: 9s;
+    animation-delay: 0.2s;
+  }
+
+  .snowflake:nth-child(6) {
+    left: 60%;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+  }
+
+  .snowflake:nth-child(7) {
+    left: 70%;
+    animation-duration: 4s;
+    animation-delay: 1.2s;
+  }
+
+
+  .snowflake:nth-child(8) {
+    left: 80%;
+    animation-duration: 7s;
+    animation-delay: 0.5s;
+  }
+
+  .snowflake:nth-child(9) {
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 0s;
+  }
+
+
+  
+  .snowflake:nth-child(10) {
+    left: 100%;
+    animation-duration: 6s;
+    animation-delay: 1s;
+  }
+
+
+  .snowflake:nth-child(11) {
+    left: 16%;
+    animation-duration: 7s;
+    animation-delay: 0.5s;
+  }
+
+  .snowflake:nth-child(12) {
+    left: 8%;
+    animation-duration: 6s;
+    animation-delay: 0s;
+  }
+
+
+  
+  .snowflake:nth-child(13) {
+    left: 67%;
+    animation-duration: 6s;
+    animation-delay: 1s;
+  }
+
+
+  .snowflake:nth-child(14) {
+    left: 84%;
+    animation-duration: 6s;
+    animation-delay: 0s;
+  }
+
+
+  
+  .snowflake:nth-child(15) {
+    left: 78%;
+    animation-duration: 6s;
+    animation-delay: 1s;
+  }
+
+
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }

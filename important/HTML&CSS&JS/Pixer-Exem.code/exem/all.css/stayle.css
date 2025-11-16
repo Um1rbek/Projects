@@ -1,0 +1,599 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pixer{
+    width: 1600px;
+    background-color: white;
+    padding: 20px 20px;
+    margin: auto;
+    box-shadow: 1px 4px 5px ;
+    position: sticky;
+    top: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+body{
+    background-color:aliceblue ;
+}
+
+.pixer__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.nav__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    
+
+}
+.nav__li{
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav__li:hover{
+    color: grey;
+    transition: 0.7s;
+}
+
+
+.nav__btn{
+    /* phone-number */
+
+    color: white;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+border: none;
+
+
+
+/* blue */
+background: #00BAFC;
+border-radius: 5px;
+border-color: rgb(85, 109, 138);
+
+
+}
+
+.nav__btn:hover{
+   
+    background-color: #3cc7fa;
+   
+}
+
+.nav__a{
+    color: white;
+}
+
+.nav__a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+      /* VIDEO */
+
+.video{
+    width: 1640px;
+    margin: auto;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.video__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20PX 20PX;
+    gap: 80px;
+}
+
+.video__text{
+    /* promo-text */
+
+width: 465px;
+height: 74px;
+font-family: sans-serif;
+padding: 20px 10px;
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+
+}
+
+.video__title{
+    /* promo-heading */
+
+width: 570px;
+height: 78px;
+font-family: sans-serif;
+
+font-size: 40px;
+font-weight: 200px;
+}
+
+
+
+.video__btn{
+background-color: #00BAFC;
+height: 36px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px 20px;
+border: none;
+}
+
+.video__btn:hover{
+    background-color: #4983e7;
+}
+
+.video__link{
+    color: white;
+}
+
+
+/* WORKS */
+.works{
+    width: 1560px;
+    margin: auto;
+    background-color: white;
+    padding: 30px 40px;
+}
+
+.works__title{
+    /* section-title */
+
+width: 117px;
+height: 31px;
+
+/* section-title */
+font-family: 'Open Sans';
+
+/* or 31px */
+text-align: center;
+
+color: #000000;
+
+margin: auto;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.works__text{
+
+margin: auto;
+width: 719px;
+height: 48px;
+
+
+font-family: 'Open Sans';
+
+text-align: center;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.works__box{
+    border: 1px solid  grey;
+    width: 270px;
+    height: 200px;
+    box-shadow: 20px 15px 20px grey;
+    padding: 20px 20px;
+}
+
+.works__box__title{
+font-size: 30px;
+font-family: 'Open Sans';
+text-align: center;
+
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+padding: 10px 20px;
+
+}
+
+.works__box__text{
+width: 95px;
+height: 24px;
+
+font-family: 'Open Sans';
+margin: auto;
+text-align: center;
+
+color: #000000;
+
+
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+}
+
+.works__box__img{
+    margin: auto;
+    margin-left: 40px;
+}
+
+.works__all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    padding: 20px 20px;
+}
+
+
+.works__btns{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+gap: 40px;
+padding: 20px 0px;
+}
+
+
+.works__btn{
+
+    background-color: #00BAFC;
+    border: none;
+    padding: 5px 10px;
+
+}
+
+
+.works__link{
+    /* Buyurtma berish */
+
+width: 135px;
+height: 24px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+font-family: sans-serif;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.works__linkk{
+    /* Xizmatlar sahifasiga o’tish */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+font-family: sans-serif;
+color: #00BAFC;
+
+}
+
+
+.works__btn:hover{
+    background-color:#1a9fcf;
+    border-radius: 5px;
+}
+
+.works__linkk:hover{
+   color: #98d9f1;
+}
+
+
+.works__box:hover{
+    box-shadow: 20px 15px 20px rgb(85, 85, 85);
+    background-color: aliceblue;
+}
+
+
+
+    /* HOW */
+
+
+.how{
+    width: 1540px;
+    padding: 50px 50px;
+    margin: auto;
+    background-color: white;
+}
+
+.how__title{
+
+font-size: 20px;
+width: 250px;
+height: 31px;
+
+font-family: 'Open Sans';
+
+text-align: center;
+color: #000000;
+margin: auto;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.how__text{
+    margin: auto;
+    width: 719px;
+    height: 48px;
+    
+    
+    font-family: 'Open Sans';
+    
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.how__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+
+
+.how__box__title{
+width: 377px;
+height: 26px;
+font-family: 'Open Sans';
+display: flex;
+align-items: center;
+
+
+color: #000000;
+font-size: 20px;
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+
+}
+
+.how__box__text{
+width: 413px;
+padding: 10px 00px;
+height: 48px;
+
+font-family: 'Open Sans';
+color: #000000;
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+
+}
+
+
+/* INpuT */
+
+
+.input{
+    width: 1540px;
+    margin: auto;
+    background-color: #3cc7fa;
+    padding: 50px 50px;
+}
+
+
+.input__title{
+width: 203px;
+height: 31px;
+
+font-family: 'Open Sans';
+margin: auto;
+font-size: 25px;
+
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.input__text{
+width: 719px;
+height: 48px;
+margin: auto;
+font-family: 'Open Sans';
+text-align: center;
+
+color: #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.input__all{
+    width: 200px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 20px 15px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px 5px;
+    width: 170px;
+}
+
+.input__btn{
+    margin: auto;
+    background-color: #1a9fcf;
+    padding: 5px 5px;
+    margin-top: 10px;
+    border: none;
+}
+
+.input__btn:hover{
+    background-color: #6bd3f8;
+}
+
+.btn__in__link{
+    color: white;
+}
+
+/* footer */
+
+.footer{
+    width: 1540px;
+    padding: 50px 50px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 890px;
+}
+
+.footer__title{
+    color: white;
+    font-size: 30px;
+    padding: 15px 0px;
+}
+
+
+.footer__text{
+    color: rgb(196, 192, 192);
+    width: 200px;
+    padding: 3px 0px;
+
+}
+
+
+.footer__text:hover{
+    color: aliceblue;
+}
+
+.tg__link{
+    color: rgb(47, 142, 225);
+   
+}
+
+.tg__link:hover{
+    color: #63b1cd;
+}
+
+.soshl__media{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.nav__item {
+	position: relative;
+}
+.nav__item:hover .nav__ul__all {
+	display: block;
+    width: 100px;
+    padding: 20px 10px;
+
+}
+
+.pixer__li__all:hover{
+    background-color: #1884f7;
+
+}
+
+.pixer__li__all:active{
+    background-color: #60c7ed;
+}
+
+
+.nav__ul__all{
+	position: absolute;
+
+	color: #000000;
+	display: none;
+	padding: 10px;
+	list-style: none;
+	background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(75, 72, 72);
+}
+
+
+.pixer__li__all{
+    padding: 10px 0px;
+}

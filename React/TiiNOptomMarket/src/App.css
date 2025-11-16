@@ -1,0 +1,23 @@
+/* global background animation for full website */
+body {
+  background: linear-gradient(120deg, #2E7D32, #348C44, #1B5E20);
+  background-size: 600% 600%;
+  animation: globalWave 30s ease infinite;
+}
+
+@keyframes globalWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* optional: smooth text appearance */
+body, h1, h2, h3, h4, h5, h6, p, a, button {
+  transition: all 0.3s ease;
+}

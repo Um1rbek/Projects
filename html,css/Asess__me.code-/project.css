@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+     width: 1600px;
+    border: 1px solid;
+    margin: auto;
+}
+
+.wrapper{
+    width: 1400px;
+    background-color: rgb(233, 226, 226);
+    margin: 50px auto;
+}
+
+.navbar__logo{
+    vertical-align: middle;
+}
+
+.list{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 600px;
+}
+
+
+.item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+
+.link{
+color: grey;
+}
+
+.intro__left , .intro__right{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro{
+    margin-top: 160px;
+}
+
+.intro__title{
+    /* Enhance your skills and climb to the top! */
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 90px;
+line-height: 105px;
+
+color: #003B66;
+
+
+}
+
+
+.intro__text{
+    /* AssessMe is a skill assessment app that tests your job specific skills and pairs you with a recruiter. */
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #005999;
+
+}
+
+.btn{
+    /* Rectangle 3 */
+
+
+width: 183px;
+height: 56px;
+
+
+background: linear-gradient(264.88deg, #004A80 0.72%, #002C4D 99.28%);
+border-radius: 4px;
+
+}
+
+.btn2{
+/* Rectangle 4 */
+
+box-sizing: border-box;
+
+
+position: absolute;
+width: 183px;
+height: 56px;
+
+
+border: 1px solid #003B66;
+border-radius: 4px;
+
+
+}

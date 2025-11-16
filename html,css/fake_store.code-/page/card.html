@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllCardr</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+
+
+/>
+ <link rel="stylesheet" href="../">
+
+</head>
+
+<style>
+    .card {
+      min-width: 20%; /* 5 ta card = 100% / 5 = 20% */
+      box-sizing: border-box;
+      padding: 10px;
+    }
+    .card-inner {
+      border: 1px solid #28a745;
+      padding: 10px;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+    }
+  </style>
+  
+<body>
+    <a href="./about.html">About page</a>
+    <a href="./contact.html">Contact page</a>
+
+    <div class="top-nav w-100 bg-dark text-light">
+        <div class="top-wrapper d-flex justify-content-between align-item-center">
+            <div>
+                <span><i class="ri-map-pin-fill"></i></span>
+                <span>Toshkent</span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet.</p>
+
+            <select name="lang" id="" class="bg-dark border rounded text-light">
+                <option value="en">Uzb</option>
+                <option value="en">Eng</option>
+                <option value="en">Rus</option>
+            </select>
+        </div>
+    </div>
+ 
+
+
+    <!-- navbar -->
+
+    <header>
+        <nav class="container d-flex justify-content-between align-item-center w-100">
+            <h2>brand logo</h2>
+            <ul>
+                <li>
+                    <a href="#" class="text-decoration-none text-dark tw-border">Bosh sahifa</a>
+                </li>
+                
+                <li>
+                    <a href="#" class="text-decoration-none text-dark tw-border">Katalog</a>
+                </li>
+
+                <li>
+                    <a href="#"  class="text-decoration-none text-dark tw-border">haqimizda</a>
+                </li>
+
+
+                <li>
+                    <a href="#" class="text-decoration-none text-dark tw-border">Aloqa</a>
+                </li>
+            </ul>
+
+            <div>
+                <input type="text" class="form-control d-block" placeholder="Qidirish">
+            </div>
+        </nav>
+    </header>
+
+
+ <!-- lebel -->
+
+
+ <div id="carouselExampleIndicators" class="carousel slide container">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/asus (2).png" class="d-block w-30" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/Frame 897.png " class="d-block w-30" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/original 1.png" class="d-block w-30" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+<!-- card -->
+
+
+
+        <div id="box" class="slider-wrapper  flex-wrap   w-30 gap-5 container h-30" >
+          <!-- Cardlar JavaScript orqali shu yerga tushadi -->
+        </div>
+        <!-- HTML -->
+<div id="box" class="container my-4">
+    <!-- JavaScript orqali stolblar va cardlar shu yerga tushadi -->
+  </div>
+  
+
+  
+    
+  <div id="next-card"  class="container w-25"> <button type="button" class="btn btn-secondary  container ">Lorem, ip</button></div>
+
+ 
+  
+
+  
+    <script src="../utils/card.js"></script>
+</body>
+</html>

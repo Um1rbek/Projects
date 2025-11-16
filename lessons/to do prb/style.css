@@ -1,0 +1,152 @@
+/* Umumiy sozlamalar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* To-Do konteyner */
+.todo-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Sarlavha */
+.text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Input maydoni */
+.input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #007bff;
+}
+
+/* Tugma (Qo‘shish) */
+.add-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Xatolik xabari */
+.messages {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Vazifalar ro‘yxati */
+.todo {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* Har bir vazifa */
+.todo li {
+    background: #e3f2fd;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* O‘chirish tugmasi */
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.modal-form {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin: 200px auto;
+}
+
+
+.edit-input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: clear;
+}

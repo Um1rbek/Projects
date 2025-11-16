@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.log_box{
+    width: 1000px;
+    height: 600px;
+    margin: 40px auto;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    
+}
+
+.or{
+    font-family: sans-serif;
+          text-align: center;
+            margin: 15px 0;
+            color: #777;
+}
+
+
+.right-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns_subtext{
+/* Join us and get more benefits. We promise to keep your data safely. */
+
+
+
+font-family: sans-serif;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* Object / Black 60 */
+color: rgba(27, 27, 27, 0.6);
+
+
+}
+
+.btn_subtt{
+
+
+width: 43px;
+height: 16px;
+
+
+font-family: sans-serif;
+font-style: normal;
+
+font-size: 12px;
+
+
+text-align: center;
+
+color: #3DCBB1;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+
+.Log-Img{
+    width: 95%;
+}
+
+
+.log_left_box {
+    width: 650px;
+
+
+}
+
+
+.Fb_btn{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+
+               width: 90%;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin: 0px 20px ;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: none;
+
+                   background: #1877F2;
+            color: white;
+           
+    
+
+}
+
+        input {
+            width: 80%;
+            padding: 12px;
+            margin-top: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+.Ap_btn{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+            width: 90%;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin: 0px 20px ;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: none;
+                                       background: #000000;
+            color: white;
+
+}
+
+
+.Gl_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+                width: 90%;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin: 0px 20px ;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid;
+                               background: #ffffff;
+            color: rgb(0, 0, 0);
+           
+
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    margin-top: 50px ;
+    margin-bottom: 8px;
+}
+
+/* .right_inputs{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+} */
+
+
+.login_btn{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+
+                width: 90%;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin: 0px 20px ;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid;
+                               background: #ffffff;
+            color: rgb(0, 0, 0);
+           
+} */
+
+
+.log_right_box{
+
+    width: 500px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+
+}
